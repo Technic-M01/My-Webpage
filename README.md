@@ -1,5 +1,5 @@
 # Description 
-Repository to hold the source code of my personal webpage. 
+Repository to hold the source code of my personal webpage and the uploading scripts used in development. 
 AWS was used to hold the source code files, host the website, and handle website traffic.
 
 # Implementation
