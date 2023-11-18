@@ -19,7 +19,15 @@ The webpage is currently setup to only show my resumé, but in the future I plan
 
 - [ ] More interactivity for the user
 
-- [ ] adding scripts to update source code files in the S3 bucket from the terminal. (currently replacing files and invalidating CloudFront distribution cache manually.)
+- [X] adding scripts to update source code files in the S3 bucket from the terminal. (currently replacing files and invalidating CloudFront distribution cache manually.)
+
+## Python Scripts
+### setup
+inside the scripts directory, create a python3.8< virtual environment and install all the apt packages from requirements.txt
+
+### Usage
+The python script to upload locally modified source code to the S3 bucket **must** be run from inside the scripts directory.\
+Providing the path to a json file that contains necessart AWS credentials is required to run the script and execute any actions on the cloud resources.
 
 # Website
 This was a quick, fun project to do so I can learn more AWS services hands on, and get the practice in for when I eventually take the Cloud Practicioner exam!\
