@@ -9,7 +9,7 @@ A CloudFront distribution is setup with an SSL/TLS certificate, and points to th
 The record in the previously created hosted zone is configured to point to the new CloudFront distribution (originally pointing to the S3 buckets website endpoint)
 
 # Additional Development
-The webpage is currently setup to only show my resumé, but in the future I plan on adding pages to showcase some of the things I've worked on and created both professionally, and as a hobby.
+The webpage is currently setup to only show my resumé, but in the future I plan on adding pages to showcase some of the things I've worked on and created both personally and professionally.
 
 ## Planned Features
 
